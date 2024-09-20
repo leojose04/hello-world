@@ -95,7 +95,7 @@ import random
 #contador_leras()
 
 def piedra_papel_tijera():
-    global resultado
+    
     opciones = ["piedra", "papel", "tijera"]
     jugador2 = random.choice(opciones)
     jugador = random.choice(opciones)
